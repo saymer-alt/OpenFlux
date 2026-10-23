@@ -188,6 +188,16 @@ The nightly prerelease channel (`.github/workflows/nightly.yml`) tracks
 the `nightly` branch for anyone who wants a current build ahead of the
 next tagged release.
 
+
+## Bugs, ideas and feedback
+
+- **Bug** — [Bug report form](https://github.com/saymer-alt/OpenFlux/issues/new?template=bug_report.yml)
+- **Feature** — [Feature request form](https://github.com/saymer-alt/OpenFlux/issues/new?template=feature_request.yml)
+- **Anything else** — [blank issue](https://github.com/saymer-alt/OpenFlux/issues/new)
+- **Vulnerability** — privately via [Report a vulnerability](https://github.com/saymer-alt/OpenFlux/security/advisories/new); do not post technical details in public issues.
+
+Sanitize everything before publishing: no passwords, tokens, private keys, subscriptions, VPN keys or private IP configurations.
+
 ## License
 
 GNU General Public License v3.0 or later. See LICENSE for the full text.
