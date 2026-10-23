@@ -1,0 +1,51 @@
+name: "Bug report"
+description: "Report a reproducible issue"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before submitting:** do not paste passwords, private keys, tokens, subscriptions, VPN keys or private IP configurations. Sanitize logs and diagnostics first. Do not publish vulnerabilities in a public issue — use the private channel described in [SECURITY.md](../../blob/main/SECURITY.md).
+  - type: textarea
+    id: description
+    attributes:
+      label: "What happens?"
+      description: "Expected behavior and actual behavior."
+      placeholder: "Expected ...; actual ..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Reproduction steps"
+      description: "Minimal steps without secrets."
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: "Version"
+      description: "App/script version or the exact commit."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "Build (commit or release), OS and architecture, transport used, client/exit-node mode."
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: "Diagnostics and logs"
+      description: "Sanitized logs, reports, screenshots — only what is needed."
+    validations:
+      required: false
+  - type: checkboxes
+    id: secrets
+    attributes:
+      label: "Safety"
+      options:
+        - label: "I removed passwords, tokens, keys, subscriptions and private addresses from this report."
+          required: true

@@ -1,0 +1,25 @@
+name: "Feature request"
+description: "Propose an improvement"
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What problem does it solve?"
+      description: "Describe the real user task, not only the implementation."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Desired behavior"
+      description: "What should happen and how; possible constraints."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives, compatibility and constraints"
+      description: "What you already tried; platform/device/compatibility requirements."
+    validations:
+      required: false
